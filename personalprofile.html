@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title> Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px; color:#ffffff ;
+      letter-spacing: 5px;
+
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+
+  }
+  .fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color:white;
+
+}
+  </style>
+</head>
+<body>
+
+
+<nav class="fixed-nav-bar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Joey Mueller</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#who">WHO</a></li>
+        <li><a href="#what">WHAT</a></li>
+        <li><a href="#where">WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center" id="who">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="profilepic.jpg " class="img-responsive img-circle margin" style="display:inline" alt="awesome" width="350" height="350">
+  <h3>I'm an adventurer</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center" id=what>
+  <h3 class="margin">What do I do?</h3>
+  <p>I’m Joey Mueller and I'm an adventurer. I travel to some of the coolest spots on the map and find the most awesome views out there. I do whatever it takes to get there and take sick pictures during the trip.     </p>
+  <img src="boats.jpg" height=300px width=300px>
+
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center" id="where">
+   <h3 class="margin">Where To Find Me?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p> First you can find me on the mountains. My favorite sport is snowboarding, and I'll do almost anything to get to the best mountains around. My all-time favorite mountain is Gore, but you will most likely find me at Windham Mountain for a day trip.</p>
+      <img src="snowboarder.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>Second you can find me on the trails. When I’m not on the snow during the winter I’m hiking up in the mountain instead. I plan on hiking the Appalachian trail during the summer of 2020 with my brother and a few of our friends. (This picture is from Alaska)  </p>
+      <img src="trekking.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p> Third you can find me running through the woods wearing the Mineola jersey. I've been running cross country, winter track and spring track for three years in a row. I run a 5k during XC and my favorite events during winter and spring are the mile and 800m. </p>
+      <img src="XC.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="http://www.w3schools.com">www.w3schools.com</a></p>
+</footer>
+
+</body>
+</html>
